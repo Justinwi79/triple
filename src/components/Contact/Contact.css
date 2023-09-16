@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    color: rgb(31, 54, 61);
+    margin: 35px 0 20px 0 !important;
+  }
+
+.container{
+    align-items: center;
+}
+
+.group{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(31, 54, 61);
+}
+.large-input {
+    width: 90%; 
+    padding: 20px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .message-input {
+    width:90%; 
+    padding: 20px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+  }
+
+  .sbutton {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #052649;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+
+  }
+  
+  .sbutton:hover {
+    background-color:#007bff;
+  }
+
+  .thank-you-popup {
+    color: white; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#007bff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 1000;
+  }
+
+  fieldset {
+    width: 50%; 
+    margin: 10px auto 20px auto; 
+    line-height:1.6em;
+  }
+
+  legend {
+    font-size: 125%;
+    font-weight: 500;
+    width: 200px; 
+  }
+
+
+  @media (max-width: 768px) {
+    .large-input {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .large-input {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
+  
+  
+  

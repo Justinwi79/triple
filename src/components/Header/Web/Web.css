@@ -1,0 +1,45 @@
+
+.web {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 100px;
+    color: white;
+}
+
+.web-option {
+    display: flex;
+    font-size: 18px;
+    margin-right: 50px;
+    font-weight: 700;
+    margin: 0 10px;
+    padding: 10px;
+    color: white; 
+}
+
+.web-option a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: font-size 0.8s ease; 
+}
+
+.web-option a:hover {
+	color: rgb(198, 192, 192);
+    font-size: 20px;
+  }
+
+.link {
+    margin-right: 20px;
+}
+
+.option-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.web-option:last-child {
+    margin-right: 0px;
+}

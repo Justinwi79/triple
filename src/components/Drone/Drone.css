@@ -1,0 +1,68 @@
+
+h3{
+  text-align: center;
+  margin-top: 50px;
+}
+p{
+  text-align: center;
+  margin-top: 10px;
+}
+.image-container {
+  width: 400px; 
+  height: 200px; 
+  border: 1px solid #ccc; 
+  overflow: hidden; 
+}
+
+.image-container img {
+  width: 400px; 
+  height: 300px; 
+  max-width: 100%;
+  object-fit: cover; 
+}
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
