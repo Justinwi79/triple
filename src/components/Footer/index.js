@@ -23,9 +23,9 @@ const Footer = () => {
         <h3>Resources</h3>
         <ul>
 			    <li><a href="/contact">Contact</a></li>
-          <li><a href="http://www.fsu.edu"  target="_blank" rel="noreferrer">FSU</a></li>
-			    <li><a href="http://www.fontawesome.com"target="_blank" rel="noreferrer">Font Awesome</a></li>
-          <li><a href="http://www.w3schools.com"target="_blank" rel="noreferrer">W3Schools</a></li>
+          <li><a href="http://www.fsu.edu"  target="_blank" rel="noopener noreferrer">FSU</a></li>
+			    <li><a href="http://www.fontawesome.com"target="_blank" rel="noopener noreferrer">Font Awesome</a></li>
+          <li><a href="http://www.w3schools.com"target="_blank" rel="noopener noreferrer">W3Schools</a></li>
 
         </ul>
       </div>

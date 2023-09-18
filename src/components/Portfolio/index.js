@@ -17,7 +17,7 @@ function Portfolio(){
             <div className="layout-container">
                 <div className="row">
                     <div className="image-container">
-                        <img src={Image1} alt="Image 1" />
+                        <img src={Image1} alt=" 1" />
                     </div>
                     <div className="description">
                         <p>
@@ -43,7 +43,7 @@ function Portfolio(){
                         </p>
                     </div>
                     <div className="image-container">
-                        <img src={Image2} alt="Image 2" />
+                        <img src={Image2} alt="2" />
                     </div>
                 </div>
             </div>
